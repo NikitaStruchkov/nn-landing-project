@@ -40,20 +40,20 @@
 @font-face {
   font-family: 'PlayfairDisplay-regular';
   font-weight: normal;
-  src: url('/vendor/fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
-    url('/vendor/fonts/PlayfairDisplay-Regular.woff') format('woff');
+  src: url('../vendor/fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+    url('../vendor/fonts/PlayfairDisplay-Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: 'PlayfairDisplay-medium';
   font-weight: normal;
-  src: url('/vendor/fonts/PlayfairDisplay-Medium.woff2') format('woff2'),
-    url('/vendor/fonts/PlayfairDisplay-Medium.woff') format('woff');
+  src: url('../vendor/fonts/PlayfairDisplay-Medium.woff2') format('woff2'),
+    url('../vendor/fonts/PlayfairDisplay-Medium.woff') format('woff');
 }
 
 @font-face {
   font-family: 'PlayfairDisplay-bold';
   font-weight: normal;
-  src: url('/vendor/fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
-    url('/vendor/fonts/PlayfairDisplay-Bold.woff') format('woff');
+  src: url('../vendor/fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+    url('../vendor/fonts/PlayfairDisplay-Bold.woff') format('woff');
 }
