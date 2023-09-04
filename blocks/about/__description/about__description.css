@@ -1,0 +1,22 @@
+.about__description {
+    margin: 20 0 20px;
+    opacity: 0.4;
+    color: #050505;
+    font-size: 22px;
+    line-height: 2rem;
+    font-family: "PlayfairDisplay-regular", "Arial", sans-serif;
+}
+
+
+@media (max-width: 960px) {
+    .about__description {
+        font-size: 18px;
+        line-height: 1.25rem;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .about__description {
+        text-align: center;
+    }
+  }

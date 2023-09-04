@@ -1,0 +1,17 @@
+.footer__description {
+    /* сверху | справа | снизу | слева */
+    margin: 0 40px 0 0;
+    /* width: 250px; */
+    text-align: right;
+    font-family: "PlayfairDisplay-regular", "Arial", sans-serif;
+    color: #464646;
+    font-size: 16px;
+    line-height: 1.125rem;
+}
+
+
+@media (max-width: 425px) {
+    .footer__description {
+        text-align: center;
+    }
+  }

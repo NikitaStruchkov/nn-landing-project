@@ -1,0 +1,22 @@
+.about {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+@media (max-width: 960px) {
+  .about {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    width: 100%;
+    gap: 20px;
+    flex-direction: column;
+  }
+}

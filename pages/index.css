@@ -1,0 +1,59 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/root/root.css); /* ? */
+@import url(../blocks/page/page.css);
+@import url(../vendor/fonts/fonts.css);
+
+/* about */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__my-photo/about__my-photo.css);
+@import url(../blocks/about/__information/about__information.css);
+@import url(../blocks/about/__name/about__name.css);
+@import url(../blocks/about/__description/about__description.css);
+@import url(../blocks/about/__briefly-about-mу/about__briefly-about-mу.css);
+
+/* my-projects */
+@import url(../blocks/my-projects/my-projects.css);
+@import url(../blocks/my-projects/__columns/my-projects__columns.css);
+@import url(../blocks/my-projects/__prj-list/my-projects__prj-list.css);
+@import url(../blocks/my-projects/__prj-name/my-projects__prj-name.css);
+@import url(../blocks/my-projects/__prj-links/my-projects__prj-links.css);
+@import url(../blocks/my-projects/__prj-photo/my-projects__prj-photo.css);
+@import url(../blocks/my-projects/__prj-description/my-projects__prj-description.css);
+
+/* my-services */
+@import url(../blocks/my-services/my-services.css);
+@import url(../blocks/my-services/__container/my-services__container.css);
+@import url(../blocks/my-services/__columns/my-services__columns.css);
+@import url(../blocks/my-services/__column-title/my-services__column-title.css);
+@import url(../blocks/my-services/__column-list/my-services__column-list.css);
+@import url(../blocks/my-services/__column-point/my-services__column-point.css);
+
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__description/footer__description.css);
+
+/* page */
+@import url(../blocks/page/__about/page__about.css);
+@import url(../blocks/page/__my-projects/page__my-projects.css);
+@import url(../blocks/page/__my-services/page__my-services.css);
+
+@font-face {
+  font-family: 'PlayfairDisplay-regular';
+  font-weight: normal;
+  src: url('/vendor/fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+    url('/vendor/fonts/PlayfairDisplay-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-medium';
+  font-weight: normal;
+  src: url('/vendor/fonts/PlayfairDisplay-Medium.woff2') format('woff2'),
+    url('/vendor/fonts/PlayfairDisplay-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-bold';
+  font-weight: normal;
+  src: url('/vendor/fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+    url('/vendor/fonts/PlayfairDisplay-Bold.woff') format('woff');
+}

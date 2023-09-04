@@ -1,0 +1,11 @@
+.my-services__container {
+    display: flex;
+    gap: 30px;
+}
+
+
+@media (max-width: 768px) {
+    .my-services__container {
+        flex-direction: column;
+    }
+  }

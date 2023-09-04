@@ -1,0 +1,31 @@
+.about__my-photo {
+    width: 500px;
+    object-fit: cover;
+    box-shadow: 10px 15px 5px rgba(70, 70, 70, 0.3);
+}
+
+@media (max-width: 1279px) {
+    .about__my-photo {
+      width: 350px;
+    }
+  }
+
+  @media (max-width: 960px) {
+    .about__my-photo {
+        width: 300px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .about__my-photo {
+        width: 425px;
+        margin: 0 auto;
+    }
+  }
+
+  
+  @media (max-width: 425px) {
+    .about__my-photo {
+        width: 100%;
+    }
+  }

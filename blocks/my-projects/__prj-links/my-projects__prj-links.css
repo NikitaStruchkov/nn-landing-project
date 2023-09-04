@@ -1,0 +1,8 @@
+.my-projects__prj-links {
+  text-decoration: none;
+  color: #050505;
+}
+
+.my-projects__prj-links:hover {
+  text-decoration: underline;
+}

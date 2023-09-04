@@ -1,0 +1,20 @@
+.about__name {
+    margin: 0;
+    font-family: "PlayfairDisplay-bold", "Arial", sans-serif;
+    color: #050505;
+    font-size: 64px;
+    line-height: 4.5rem;
+}
+
+@media (max-width: 960px) {
+    .about__name {
+        font-size: 48px;
+        line-height: 3.25rem;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .about__name {
+        text-align: center;
+    }
+  }

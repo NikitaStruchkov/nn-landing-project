@@ -1,0 +1,11 @@
+.my-services__column-list {
+  list-style: none;
+  padding: 0;
+  margin-left: 5px;
+}
+
+.my-services__column-list li:before {
+  content: '—';
+  position: relative;
+  left: -5px;
+}

@@ -1,0 +1,17 @@
+.my-projects__columns {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .my-projects__columns {
+        width: 95%;
+        margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .my-projects__columns {
+        width: 100%;
+    }
+  }
+  
